@@ -1,0 +1,118 @@
+body {
+    background: rgb(8, 0, 0);
+    margin:0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+
+
+
+
+header h1 {
+    margin: 0;
+    font-style: italic;
+}
+
+div.post{
+    background: white;
+    margin-top: 10px;
+}
+
+div.post img{
+    width: 100%;
+
+}
+
+.post0-header{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.fecha{
+    padding-top: 6px;
+}
+
+
+.btn{
+    font-size: 20px;   
+    color: rgb(255, 1, 1);
+    border-radius: none;
+    border: none;
+    background: none;
+    padding-right: 15px;
+
+}
+
+.btn2{
+    font-size: 20px;
+    color: rgb(8, 238, 20);
+    border-radius: none;
+    border: none;
+    background: none;
+    padding-right: 15px;
+}
+
+.btn3{
+    font-size: 20px;
+    color: rgb(39, 1, 255);
+    border-radius: none;
+    border: none;
+    background: none;
+    padding-right: 15px;
+}
+
+.btn:hover, .btn2:hover, .btn3:hover{
+    color: rgb(0, 0, 0);
+}
+
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%; 
+}
+
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right; 
+}
+
+div.post h2, div.post p{
+    padding: 5px;
+    margin: 0;
+}
+
+div.container{
+    padding: 0px;
+    width: 600px;
+    margin: auto;
+
+}
+
+div.post0-header{
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnperfil{ 
+    font-size: 25px;
+    padding: 10px;
+    border-radius: none;
+    border: none;
+    background: none;
+}
+
+.btnperfil2{
+    
+    display: flex;
+    justify-content:space-around; 
+    padding-left: 0px;
+  
+}
+
+
+
